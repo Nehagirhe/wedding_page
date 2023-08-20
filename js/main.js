@@ -148,7 +148,7 @@ var x = setInterval(function() {
 
 
 // Rose Petals
-const total = 100;
+const total = 80;
 const dotContainer = document.querySelector(".dot-container");
 const w = window.innerWidth;
 const h = window.innerHeight;
