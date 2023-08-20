@@ -148,12 +148,12 @@ var x = setInterval(function() {
 
 
 // Rose Petals
-const total = 80;
+const total = 100;
 const dotContainer = document.querySelector(".dot-container");
 const w = window.innerWidth;
 const h = window.innerHeight;
 
-for (let i = 0; i < total; i++) {
+for (let i = 10; i < total; i++) {
   const dot = document.createElement('div');
   dot.className = 'dot';
   dot.style.left = Math.random() * w + 'px';
