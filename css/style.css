@@ -652,7 +652,7 @@ pre code {
 
 
 
-@media(min-width: 320px ){
+/* @media(min-width: 320px ){
   .container-fluid .py-9{
 height: 30px !important;
   }
@@ -660,8 +660,36 @@ height: 30px !important;
     font-size: 30px;
     display: inline;
   }
+} */
+
+
+
+@media(min-width: 320px ){
+  .container-fluid .py-9{
+height: 30px !important;
+  }
+  .countdown-container #demo{
+    font-size: 17px;
+    display: inline;
+  }
+  .countdown-container #demo{
+    font-size: 17px;
+  }
 }
 
+
+@media(min-width: 576px ){
+  .container-fluid .py-9{
+height: 50px !important;
+  }
+  .countdown-container #demo{
+    font-size: 30px;
+    display: inline;
+  }
+  .countdown-container #demo{
+    font-size: 30px;
+  }
+}
 
 
 @media (min-width: 768px) {
